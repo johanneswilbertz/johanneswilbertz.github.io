@@ -5,42 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Johannes Wilbertz | Translational Scientist</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <main class="container">
+  <div class="wrapper">
     
-    <aside class="sidebar">
-      <img class="profile-picture" src="images/my_photo.jpg" alt="Johannes Wilbertz" width="160" height="160">
+    <header>
+      <img class="profile-picture" src="images/my_photo.jpg" alt="Johannes Wilbertz" width="130" height="130">
       <h1 class="name">Johannes Wilbertz</h1>
       <p class="subtitle">Translational Scientist</p>
       
-      <nav class="links">
-        <a href="pdf/CV_J.Wilbertz.pdf" target="_blank" rel="noopener" class="btn btn-primary">My CV</a>
-        <a href="https://scholar.google.com/citations?hl=en&user=0pHXmrAAAAAJ" target="_blank" rel="noopener" class="btn">Publications</a>
-        <a href="https://www.linkedin.com/in/johanneswilbertz/" target="_blank" rel="noopener" class="btn">LinkedIn</a>
-        <a href="https://twitter.com/jowilbertz" target="_blank" rel="noopener" class="btn">X (Twitter)</a>
+      <nav>
+        <ul class="social-links">
+          <li><a href="pdf/CV_J.Wilbertz.pdf" target="_blank" rel="noopener">My CV</a></li>
+          <li><a href="https://scholar.google.com/citations?hl=en&user=0pHXmrAAAAAJ" target="_blank" rel="noopener">Publications</a></li>
+          <li><a href="https://www.linkedin.com/in/johanneswilbertz/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://twitter.com/jowilbertz" target="_blank" rel="noopener">X (Twitter)</a></li>
+        </ul>
       </nav>
-    </aside>
-    
-    <section class="content">
-      <p class="intro">
-        I am a scientist and project team leader specializing in stem cell-based disease modeling, cellular models, and drug discovery.
-      </p>
+    </header>
 
-      <p class="bio">
-        With a PhD in Cell Biology and over 10 years of cross-sector experience spanning academia, pharma, and biotech, my expertise centers on advanced microscopy, quantitative imaging, and target deconvolution.
-      </p>
+    <main>
+      <section class="main-section">
+        <h2>// About Me</h2>
+        <div class="bio-content">
+          <p>
+            I am a scientist and project team leader specializing in stem cell-based disease modelling, cellular models, and drug discovery. With a PhD in Cell Biology and over 10 years of cross-sector experience spanning academia, pharma, and biotech, my expertise centers on advanced microscopy, quantitative imaging, and target deconvolution.
+          </p>
+          <p>
+            Head of the <a href="https://www.igbmc.fr/en/plateformes-technologiques/photonic-microscopy-3-1/" target="_blank" rel="noopener">Imaging Center at the IGBMC</a>, leading photonic microscopy, image analysis, and assay development. Strong track record in project management, international consortia, target deconvolution, and strategic partnerships with industry, academia, and funding bodies.
+          </p>
+        </div>
+      </section>
 
-      <ul class="highlights">
-        <li><strong>Head of Imaging:</strong> Leading photonic microscopy, image analysis, and assay development at the <a href="https://www.igbmc.fr/en/plateformes-technologiques/photonic-microscopy-3-1/" target="_blank" rel="noopener">IGBMC Imaging Center</a>.</li>
-        <li><strong>Project Management:</strong> Strong track record directing international consortia and managing strategic cross-sector partnerships with industry, academia, and funding bodies.</li>
-      </ul>
-    </section>
-    
-  </main>
+      <section class="main-section">
+        <h2>// Currently Ongoing Projects</h2>
+        <ul class="project-list">
+          <li>
+            <span class="proj-title">Advanced Assay Development:</span> Building high-content 3D stem cell disease models for phenotypic screening and target validation.
+          </li>
+          <li>
+            <span class="proj-title">AI-Driven Image Analysis:</span> Integrating deep learning workflows into core microscopy pipelines for automated target profiling.
+          </li>
+          <li>
+            <span class="proj-title">Consortium Leadership:</span> Directing cross-sector academic and industrial partnerships focused on translational disease models.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Johannes Wilbertz</p>
+    </footer>
+
+  </div>
 </body>
 </html>
